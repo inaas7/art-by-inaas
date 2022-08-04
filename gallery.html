@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery | Art by Inaas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Discover some of my lastest pieces of art from acrylic and oil paintings to simple colored pencil drawings.">
+<meta name="keywords" content="art, tutorials, blog, artist, paintings, tips, custom, oil, aryclic, watercolor">
+<meta name="author" content="Inaas Asad">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" rel="stylesheet">
+<link rel="icon" href="images/logo.png">
+
+</head>
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-text-white" id="myNavbar" style="opacity:0.9">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right w3-text-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars w3-text-white"></i>
+      </a>
+      <a href="home.html" class="w3-bar-item w3-button">HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> GALLERY</a>
+      <a href="https://www.redbubble.com/people/MyArtCraze/shop?asc=u" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> SHOP</a>
+      <a href="blog.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> BLOG</a>
+     </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium dark-red">
+      <a href="about.html" class="w3-bar-item w3-button w3-text-white w3-center w3-ripple" onclick="toggleFunction()">ABOUT</a>
+      <a href="gallery.html" class="w3-bar-item w3-button w3-text-white w3-center w3-ripple" onclick="toggleFunction()">GALLERY</a>
+      <a href="https://www.redbubble.com/people/MyArtCraze/shop?asc=u" class="w3-bar-item w3-button w3-text-white w3-center w3-ripple" onclick="toggleFunction()">SHOP</a>
+      <a href="blog.html" class="w3-bar-item w3-button w3-text-white w3-center w3-ripple" onclick="toggleFunction()">BLOG</a>
+    </div>
+  </div>
+
+<!-- First Parallax Image -->
+<div class="bgimg-2 w3-display-container" id="home">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-black">Art by Inaas: GALLERY</span>
+  </div>
+</div>
+<!-- Container (Gallery Section) -->
+<div class="back2">
+<div class="w3-content w3-container w3-padding-64">
+   <h3 class="w3-center w3-text-black w3-border-bottom w3-border-deep-purple"><b>MY WORK</b></h3>
+  <p class="w3-center w3-large"><em>Discover some of my lastest pieces of art.<br> Click on a piece to enlarge it.</em></p><br>
+
+<div class="w3-row w3-card-4 dark-red">
+  <button class="w3-button tablink w3-black w3-text-white w3-col m2" onclick="openTab(event,'painting')">Acrylic Paintings</button>
+  <button class="w3-button tablink w3-text-white w3-col m2" onclick="openTab(event,'oil')">Oil Paintings</button>
+  <button class="w3-button tablink w3-text-white w3-col m2" onclick="openTab(event,'drawing')">Drawings</button>
+  <button class="w3-button tablink w3-text-white w3-col m2" onclick="openTab(event,'watercolour')">Watercolour</button>
+  <button class="w3-button tablink w3-text-white w3-col m2" onclick="openTab(event,'digital')">Digital Art</button>
+  <button class="w3-button tablink w3-text-white w3-col m2" onclick="openTab(event,'other')">Other</button>
+</div>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center tab w3-animate-opacity" id="painting" style="margin-bottom:128px">
+  <div class="w3-third">
+   <div class="w3-card-4 w3-round-large w3-margin-top w3-hover-opacity rose"><img src="images/clouds.jpg" alt="Rays of Sunshine" style="width:100%" draggable="false" onclick="onClick(this)"> <div class="w3-container w3-center">
+    <p><em>"Rays of Sunshine" </em>&nbsp;(23.5" x 19.5")</p>
+  </div></div>
+<div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p1.jpg" class="w3-hover-opacity" alt="The Colours of Fall" style="width:100%" draggable="false" onclick="onClick(this)"> <div class="w3-container w3-center">
+    <p><em>"The Colours of Fall" </em>&nbsp;(27.5" x 20")</p>
+  </div></div>
+ <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p2.jpg" class="w3-hover-opacity" alt="The Flower of the Sky" style="width:100%" draggable="false" onclick="onClick(this)"> <div class="w3-container w3-center">
+    <p><em>"The Flower of the Sky" </em>&nbsp;(12" x 8")</p>
+  </div></div>
+<div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p11.jpg" class="w3-hover-opacity" alt="Wandering in Space" style="width:100%" draggable="false" onclick="onClick(this)"> <div class="w3-container w3-center">
+    <p><em>"Wandering in Space" </em>&nbsp;(23.5" x 16")</p>
+  </div></div>
+   <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p7.jpg" class="w3-hover-opacity" alt="The Colours of Nature" style="width:100%" draggable="false" onclick="onClick(this)"> <div class="w3-container w3-center">
+    <p><em>"The Colours of Nature" </em>&nbsp;(35.5" x 23.5")</p>
+  </div></div>
+
+          </div>
+
+  <div class="w3-third">
+      <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p5.jpg" class="w3-hover-opacity" alt="Blossoming of Spring" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Blossoming of Spring" </em>&nbsp;(23.5" x 16")</p>
+  </div></div>
+
+   <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p4.jpg" class="w3-hover-opacity" alt="Sailing the Clouds" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Sailing the Clouds" </em>&nbsp;(19.5" x 19.5")</p>
+  </div></div>
+  <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/pastel sunset.jpg" class="w3-hover-opacity" alt="Pastel Sunset" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Pastel Sunset" </em>&nbsp;(15.5" x 23.5")</p>
+  </div></div>
+      <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p8.jpg" class="w3-hover-opacity" alt="Red Roses" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Red Roses" </em>&nbsp;(10" x 10")</p>
+  </div></div>
+    </div>
+
+  <div class="w3-third">
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p9.jpg"  class="w3-hover-opacity" alt="Spring Shower" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Spring Shower" </em>&nbsp;(12" x 12")</p>
+  </div></div>
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p10.jpg"  class="w3-hover-opacity" alt="Vibrant Vase" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Vibrant Vase" </em>&nbsp;(12" x 16")</p>
+  </div></div>
+  <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p6.jpg" class="w3-hover-opacity" style="width:100%" alt="Adventuring in the Clouds" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Adventuring in the Clouds" </em>&nbsp;(23.5" x 16")</p>
+  </div></div>
+
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p12.jpg"  class="w3-hover-opacity" alt="The Wilderness Sky" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"The Wilderness Sky" </em>&nbsp;(12" x 16")</p>
+  </div></div>
+
+        </div>
+</div>
+
+<div class="w3-row-padding w3-center tab w3-animate-opacity" id="oil" style="margin-bottom:128px; display:none">
+  <div class="w3-third">
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p13.jpg" alt="Sheikh Zayed Grand Mosque" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Sheikh Zayed Grand Mosque" </em>&nbsp;(23.5" x 16")</p>
+  </div></div>
+    </div>
+
+  <div class="w3-third">
+<div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/p3.jpg" alt="Floating Flower" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Floating Flower" </em>&nbsp;(12" x 12")</p>
+  </div></div>
+    </div>
+
+
+</div>
+
+
+  <div class="w3-row-padding w3-center tab w3-animate-opacity" id="drawing" style="margin-bottom:128px; display:none">
+  <div class="w3-third">
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d1.jpg" alt="An Artist's Brain" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"An Artist's Brain"</em></p>
+  </div></div>
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d6.jpg" alt="Hair" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Hair"</em></p>
+  </div></div>
+
+<div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d3.jpg" alt="M&amp;M's (Marcello Barenghi inspired)" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"M&amp;M's (Marcello Barenghi inspired)"</em></p>
+  </div></div>
+
+    </div>
+
+  <div class="w3-third">
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d4.jpg" alt="Windows to the Soul" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Windows to the Soul"</em></p>
+  </div></div>
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d9.jpg" alt="Kit-Kat" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Kit-Kat"</em></p>
+  </div></div>
+   <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/city.jpg" alt="Bird's View" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Bird's View"</em></p>
+  </div></div>
+
+    </div>
+
+  <div class="w3-third">
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d7.jpg" alt="A Wolf" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"A Wolf"</em></p>
+  </div></div>
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/d5.jpg" alt="Coca-Cola" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Coca-Cola"</em></p>
+  </div></div>
+            </div>
+</div>
+
+  <div class="w3-row-padding w3-center tab w3-animate-opacity" id="watercolour" style="margin-bottom:128px;display:none">
+  <div class="w3-third">
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w6.jpg" alt="Cherry Tree" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Cherry Tree"</em></p>
+  </div></div>
+   <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w10.jpg" alt="Farmhouse" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Farmhouse"</em></p>
+  </div></div>
+   <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w3.jpg" alt="Flowers in a Jar" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Flowers in a Jar"</em></p>
+  </div></div>
+    </div>
+
+  <div class="w3-third">
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w4.jpg" alt="Island Sunset" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Island Sunset"</em></p>
+  </div></div>
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w5.jpg" alt="Objects" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Objects"</em></p>
+  </div></div>
+ <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w1.jpg" alt="Sunset at a Lake" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Sunset at a Lake"</em></p>
+  </div></div>
+
+    </div>
+
+  <div class="w3-third">
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w7.jpg" alt="Pastel Print" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Pastel Print"</em></p>
+  </div></div>
+     <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w8.jpg" alt="Forest Lake (Van Gogh inspired)" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Forest Lake (Van Gogh inspired)"</em></p>
+  </div></div>
+  <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w9.jpg" alt="Split Pattern" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Split Pattern"</em></p>
+  </div></div>
+ <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/w2.jpg" alt="The Hummingbird" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"The Hummingbird"</em></p>
+  </div></div>
+
+  </div>
+</div>
+
+  <div class="w3-row-padding w3-center tab w3-animate-opacity" id="digital" style="margin-bottom:128px; display:none">
+  <div class="w3-third">
+    <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/digital1.jpg" alt="Coils of Hair" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Coils of Hair" (digital)</em></p>
+  </div></div>
+     </div>
+<div class="w3-third">
+<div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/digital2.jpg" alt="Slow as a Snail" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Slow as a Snail" (digital)</em></p>
+  </div></div>
+
+        </div>
+</div>
+
+  <div class="w3-row-padding w3-center tab w3-animate-opacity" id="other" style="margin-bottom:128px; display:none">
+  <div class="w3-third">
+      <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/pastel.jpg" alt="Killer Wave (oil pastels)" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Killer Wave" (oil pastels)</em>&nbsp;(10" x 10)</p>
+  </div></div>
+       </div>
+
+  <div class="w3-third">
+  <div class="w3-hover-opacity w3-card-4 w3-round-large w3-margin-top rose"><img src="images/other.jpg" alt="Gold Pattern (scratch paper)" style="width:100%" onclick="onClick(this)" draggable="false"> <div class="w3-container w3-center">
+    <p><em>"Gold Pattern" (scratch paper)</em>&nbsp;(8.3" x 5.8")</p>
+  </div></div>
+
+        </div>
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-animate-zoom w3-modal-content w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-hover-black w3-padding-48">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a><br><br>
+  <p class="w3-text-white">&copy; Art by Inaas</p>
+</footer>
+
+<script src="js/jquery-3.5.0.js"></script>
+<script src="js/script.js"> </script>
+ </body>
+</html>
